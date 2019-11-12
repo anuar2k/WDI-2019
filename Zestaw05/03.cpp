@@ -69,7 +69,7 @@ bool szachuja_sie(dane dane) {
     bool pocz_w_bok = false;
     int poczW = 1;
     int poczK = 0;
-    while (!(poczW == BOK - 1 && poczK == BOK - 1)) {
+    while (!(poczW == BOK - 1 && poczK == BOK - 2)) {
         int w = poczW;
         int k = poczK;
         //czy znalezlismy juz jednego?
